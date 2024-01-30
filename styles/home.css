@@ -20,6 +20,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  z-index: 1000;
+  transition: top 0.3s; 
 }
 
 .logo {
@@ -36,7 +38,7 @@ header {
 .nav-links {
   display: flex;
   margin-left: 110px;
-  gap: 3rem;
+  gap: 2rem;
   font-size: 2 rem;
   font-weight: 400;
 }
@@ -50,7 +52,11 @@ header {
   text-decoration: underline;
 }
 
-a{
+.active a {
+  font-weight: bold;
+}
+
+a {
   transition: all 500ms ease;
 }
 
@@ -74,16 +80,22 @@ h5 a {
 }
 
 .profile-image {
-  width: 350px;
+  width: 320px;
   height: auto;
+  margin-right: 30px;
 }
 
 .profile {
-  width: 120%;
+  width: 150%;
   height: 100vh;
-  padding: 50px 28% 80px;
+  padding: 60px 20% 80px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 47px;
+  gap: 55px;
+}
+
+.profile-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
