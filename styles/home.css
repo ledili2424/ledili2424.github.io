@@ -74,15 +74,14 @@ h5 a {
 }
 
 .profile-image {
-  width: 400px;
+  width: 350px;
   height: auto;
-  padding: 30px;
 }
 
 .profile {
-  width: 100%;
+  width: 120%;
   height: 100vh;
-  padding: 50px 25% 80px;
+  padding: 50px 28% 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
