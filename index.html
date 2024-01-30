@@ -10,17 +10,48 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:wght@300;400;500;600;700&family=Sono:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!---boxicon-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--remixicon-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    
+
 </head>
 <body>
     <header>
-        <div class="logo">Ledi Li</div>
+        <div class="logo">
+            <h4>Hello! I'm</h4>
+            <h1>Ledi Li</h1>
+        </div>
         <ul class="nav-links">
             <li><a href="#">Home</li>
             <li><a href="/pages/projects.html">Projects</li>
             <li><a href="/pages/contact.html">Contact</li>
             <li><a href="/pages/about.html">About</li>
         </ul>
-        <div>
+        <div class="bx bx-menu" id="menu-icon"></div>
     </header>
+
+
+
+    <section class="profile" id="profile">
+        <div class="profile-text">
+            <h1><span>Student</span></h1>
+            <h5><a href="https://www.khoury.northeastern.edu/">Northeastern University</a></h5>
+            <h1><span>Full Stack Developer</span></h1>
+            <div class="download">
+                <h5><a href="/assets/Ledi_Resume.pdf"><i class="ri-download-line"></i>download resume</a></h5>
+            </div>
+        </div>
+        <div>
+            <img src="/assets/profile_image.jpg" alt="profile photo" class="profile-image">
+        </div>
+    </section>
 </body>
 </html>
