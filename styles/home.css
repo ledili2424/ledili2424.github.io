@@ -61,13 +61,6 @@ a {
   transition: all 500ms ease;
 }
 
-/* #menu-icon {
-  height: 25px;
-  width: 30px;
-  cursor: pointer;
-  color: rgb(85, 85, 85);
-} */
-
 h1 span {
   font-size: larger;
   font-weight: 900;
@@ -80,7 +73,7 @@ h5 a {
   font-weight: 400;
 }
 
-.profile-image{
+.profile-image {
   max-width: 320px;
   max-height: 450px;
   margin-right: 30px;
@@ -92,14 +85,14 @@ h5 a {
   border-radius: 20px;
 }
 
-
 .profile {
   width: 150%;
   height: 100vh;
-  padding: 60px 20% 80px;
+  padding: 70px 20% 80px;
   display: flex;
   align-items: center;
   gap: 55px;
+  margin-left: 10%;
 }
 
 .profile-text {
@@ -108,33 +101,36 @@ h5 a {
   gap: 5px;
 }
 
- .hobby-content {
-  padding:120px 15% 80px;
+#hobbies,
+#contacts {
+  padding: 120px 15% 80px;
   width: 150%;
   max-width: 100%;
-} 
+}
 
-.hobbies-list{
+.hobbies-list {
   display: flex;
   flex-direction: column;
 }
 
-.hobbies-list div{
+.hobbies-list div {
   margin: 25px;
 }
 
-.section h3 {
+.hobbies-title,
+.contact-title {
   font-weight: 600;
-  color: #4e827c;
+  color: olivedrab;
   margin-bottom: 10px;
   text-align: center;
   font-size: 1.5rem;
   justify-self: center;
 }
 
-.hobby {
+.hobby,
+.contact-container {
   background-color: #eae6da;
-  padding:20px;
+  padding: 20px;
   border-radius: 20px;
 }
 
@@ -150,32 +146,50 @@ h5 a {
   display: flex;
   align-items: center;
   font-style: italic;
-  color:#84a295;
+  color: #84a295;
 }
 
-p {
+.subtitle {
   margin: 5%;
   font-weight: 450;
-  padding-inline:10px;
+  padding-inline: 10px;
   padding-block: 3px;
   border-radius: 7px;
-  border: #efdb96;
-  border-style: solid;
-  border:5px dashed #efdb96 ;
-  
+  border: 5px dashed #efdb96;
 }
 
 .hobby ul {
-  list-style-type: square;
   padding-left: 15%;
   padding-block: 10px;
   font-weight: 200;
   display: flex;
   flex-direction: column;
-  color:#84a295;
+  gap: 8px;
+  color: #84a295;
 }
 
+#contacts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
-li {
-  margin-bottom: 8px; 
-} 
+.contact-container {
+  align-items: center;
+  margin-top: 40px;
+  width: 80%;
+}
+
+.info-item {
+  max-width: 100%;
+  height: auto;
+  margin: 40px;
+  text-align: center;
+}
+
+.contact-name a {
+  color: #84a295;
+  font-weight: 600;
+  padding-top: 10%;
+}
