@@ -1,41 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website Projects</title>
-    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/home.css" />
 
     <!---goole fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:wght@300;400;500;600;700&family=Sono:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <!---boxicon-->
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Poppins:wght@300;400;500;600;700&family=Sono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!--remixicon-->
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-</head>
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-    <header >
-        <div class="logo">
-            <h4>Hello! I'm</h4>
-            <h1>Ledi Li</h1>
+  <body>
+    <header>
+      <div class="logo">
+        <h4>Hello! I'm</h4>
+        <h1>Ledi Li</h1>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li class="active"><a href="/pages/projects.html">Projects</a></li>
+        <li><a href="/pages/contact.html">Contact</a></li>
+        <li><a href="/pages/more.html">More</a></li>
+      </ul>
+    </header>
+
+    <section id="projects">
+      <h3 class="projects-title">Projects</h3>
+
+      <div class="projects-container">
+        <div class="project">
+          <div class="project-image">
+            <img src="/assets/movie.png" alt="movie rating application photo" />
+          </div>
+          <h4 class="project-name">Movie Rating Application</h4>
+          <h5 class="github-repo">
+            <a href="https://github.com/ledili2424/Movie-Rating"
+              ><i class="ri-github-fill"></i>Github</a
+            >
+          </h5>
         </div>
 
-        <ul class="nav-links">
-            <li><a href="/">Home</li>
-            <li class="active"><a href="/pages/projects.html">Projects</li>
-            <li><a href="/pages/contact.html">Contact</li>
-            <li><a href="/pages/more.html">More</li>
-        </ul>
-        <!-- <div class="bx bx-menu" id="menu-icon"></div> -->
-    </header>
-</body>
+        <div class="project">
+          <div class="project-image">
+            <img src="/assets/recipe.png" alt="recipe application photo" />
+          </div>
+          <h4 class="project-name">Recipe Application</h4>
+          <h5 class="github-repo">
+            <a href="https://github.com/ledili2424/Recipe-Application"
+              ><i class="ri-github-fill"></i>Github</a
+            >
+          </h5>
+        </div>
+
+        <div class="project">
+          <div class="project-image">
+            <img
+              src="/assets/open source.png"
+              alt="movie rating application photo"
+            />
+          </div>
+          <h4 class="project-name">Open Source Contribution(Teamwork)</h4>
+          <h5 class="github-repo">
+            <a href="https://github.com/cayhorstmann/codecheck2/pull/54"
+              ><i class="ri-github-fill"></i>Github</a
+            >
+          </h5>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
