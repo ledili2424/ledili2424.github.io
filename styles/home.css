@@ -79,13 +79,14 @@ h5 a {
   margin-right: 30px;
 }
 
-.profile-image img, .project-image img {
+.profile-image img,
+.project-image img {
   max-width: 100%;
   height: auto;
   border-radius: 20px;
 }
 
-.profile {
+#profile {
   width: 150%;
   height: 100vh;
   padding: 70px 20% 80px;
@@ -131,13 +132,14 @@ h5 a {
 }
 
 .hobby,
-.contact-container, .project{
+.contact-container,
+.project {
   background-color: #eae6da;
   padding: 20px;
   border-radius: 20px;
 }
 
-.hobby h4{
+.hobby h4 {
   color: darkolivegreen;
   font-size: 1.1rem;
   font-weight: 500;
@@ -191,7 +193,8 @@ h5 a {
   text-align: center;
 }
 
-.contact-name a, .github-repo a{
+.contact-name a,
+.github-repo a {
   color: #84a295;
   font-weight: 600;
 }
@@ -204,32 +207,96 @@ h5 a {
   text-align: center;
 }
 
-.project{
+.project {
   margin-block: 30px;
 }
 
-
-.github-repo a{
-    margin-top: 20px;
-    padding-right: 8px;
+.github-repo a {
+  margin-top: 20px;
+  padding-right: 8px;
 }
 
-.project-image{
+.project-image {
   max-width: 600px;
   max-height: 700px;
   margin: 30px;
 }
 
 .project-name {
-  color:darkolivegreen;
+  color: darkolivegreen;
   font-weight: 500;
-  padding-block:5px
+  padding-block: 5px;
 }
 
+@media (max-width: 1650px) {
+  header {
+    padding: 20px;
+  }
 
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
 
+  .logo {
+    max-width: 60%;
+    font-size: 16px;
+  }
 
+  #profile,
+  #projects,
+  #hobbies {
+    padding: 120px 10% 60px;
+  }
 
+  #profile {
+    width: 80%;
+    height: 80%;
+  }
 
+  .profile-image {
+    padding-top: 100px;
+  }
 
+  .contact-name {
+    font-size: 10px;
+  }
 
+  .projects-title,
+  .contacts-title,
+  .hobbies-title {
+    margin-top: 80px;
+    font-size: 21px;
+  }
+
+  .favorite {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+  }
+
+  .subtitle {
+    font-size: 15px;
+    padding: 3px;
+    border: unset;
+  }
+
+  h1 span {
+    font-size: 20px;
+  }
+
+  h5 a,
+  .hobby ul {
+    font-size: 12px;
+  }
+
+  .hobby h4 {
+    font-size: 17px;
+  }
+
+  .project-name,
+  .nav-links {
+    font-size: 15px;
+  }
+}
