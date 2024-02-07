@@ -228,7 +228,7 @@ h5 a {
   padding-block: 5px;
 }
 
-@media (max-width: 1650px) {
+@media (max-width: 800px) {
   header {
     padding: 20px;
   }
@@ -241,7 +241,7 @@ h5 a {
 
   .logo {
     max-width: 60%;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #profile,
@@ -259,6 +259,10 @@ h5 a {
     padding-top: 100px;
   }
 
+  .profile-text {
+    margin-top: 20px;
+  }
+
   .contact-name {
     font-size: 10px;
   }
@@ -267,7 +271,7 @@ h5 a {
   .contacts-title,
   .hobbies-title {
     margin-top: 80px;
-    font-size: 21px;
+    font-size: 23px;
   }
 
   .favorite {
@@ -277,26 +281,24 @@ h5 a {
   }
 
   .subtitle {
-    font-size: 15px;
-    padding: 3px;
-    border: unset;
+    font-size: 17px;
   }
 
   h1 span {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   h5 a,
   .hobby ul {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .hobby h4 {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .project-name,
   .nav-links {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
